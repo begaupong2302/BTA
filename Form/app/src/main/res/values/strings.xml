@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LifeCycle</string>
+    <string name="address">Address</string>
+    <string name="birthday">Birthday</string>
+    <string name="register">Register</string>
+    <string name="select">Select</string>
+    <string name="i_agree_to_terms_of_use">I agree to Terms of Use</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="first_name_label">First Name</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="gender_label">Gender</string>
+    <string name="birthday_label">Birthday</string>
+    <string name="address_label">Address</string>
+    <string name="email_label">Email</string>
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name_label"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/firstnameText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="#E8E8E8"
+        android:backgroundTint="@android:color/transparent"
+        android:backgroundTintMode="add"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:paddingStart="4sp"
+        android:paddingEnd="4sp"
+        android:textColorHint="#616161"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name_label"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lastnameText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="#E8E8E8"
+        android:backgroundTint="@android:color/transparent"
+        android:backgroundTintMode="add"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:paddingStart="4sp"
+        android:paddingEnd="4sp"
+        android:textColorHint="#616161"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender_label"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/birthdayText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="#E8E8E8"
+        android:backgroundTint="@android:color/transparent"
+        android:backgroundTintMode="add"
+        android:hint="@string/birthday"
+        android:inputType="date"
+        android:paddingStart="4sp"
+        android:paddingEnd="4sp"
+        android:textColorHint="#616161"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:autofillHints=""
+        android:background="#E8E8E8"
+        android:backgroundTint="@android:color/transparent"
+        android:backgroundTintMode="add"
+        android:hint="@string/address"
+        android:inputType="textMultiLine"
+        android:paddingStart="4sp"
+        android:paddingEnd="4sp"
+        android:textColorHint="#616161"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_label"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="#E8E8E8"
+        android:backgroundTint="@android:color/transparent"
+        android:backgroundTintMode="add"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="4sp"
+        android:paddingEnd="4sp"
+        android:textColorHint="#616161"
+        android:textSize="18sp"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintTextFieldSize" />
+
+    <CheckBox
+        android:id="@+id/agreeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_agree_to_terms_of_use"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="24sp"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>
