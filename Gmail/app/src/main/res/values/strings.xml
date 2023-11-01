@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gmail</string>
+    <string name="none">none</string>
+    <string name="inbox">Inbox</string>
+</resources>
